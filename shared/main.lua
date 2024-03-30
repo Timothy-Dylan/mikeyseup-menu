@@ -8,7 +8,7 @@ Shared.BorderPatrol = 'kmar' -- done
 Shared.Justice = 'justice' -- done
 Shared.MechanicJob = 'mechanic' -- done
 Shared.Army = 'defensie' -- done
-Shared.SpecialForces = 'police' -- done
+Shared.SpecialForces = 'dsi' -- done
 
 -- Frameworks
 Shared.Framework = 'qb-core' -- 'qb-core' or 'esx' or 'standalone'

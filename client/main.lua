@@ -114,11 +114,6 @@ RegisterNetEvent('mtc-mikeyseup:client:openAdminMenu', function ()
                 description = "Hieronder zie je de voor jou beschikbare opties voor kleding die bij de beschikbare banen horen. Klik op een optie om deze in te zien.",
                 disabled = true,
             }, {
-                title = 'Algemeen',
-                description = 'Klik hier om alle beschikbare kleding te zien voor algemeen belang.',
-                icon = 'fas fa-shirt',
-                onSelect = function() openMenu('generalclothing') end
-            }, {
                 title = 'Politie',
                 description = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
                 icon = 'fas fa-shirt',
@@ -130,30 +125,35 @@ RegisterNetEvent('mtc-mikeyseup:client:openAdminMenu', function ()
                 onSelect = function() openMenu('ambulance') end
             }, {
                 title = 'Brandweer',
-                escription = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
+                description = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
                 icon = 'fas fa-shirt',
                 onSelect = function() openMenu('firedepartment') end
             }, {
-                title = 'Douane',
-                escription = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
+                title = 'Koninklijke Marechaussee',
+                description = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
                 icon = 'fas fa-shirt',
                 onSelect = function() openMenu('borderpatrol') end
             }, {
+                title = 'Defensie',
+                description = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
+                icon = 'fas fa-shirt',
+                onSelect = function() openMenu('army') end
+            }, {
                 title = 'Justitie',
-                escription = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
+                description = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
                 icon = 'fas fa-shirt',
                 onSelect = function() openMenu('justice') end
             }, {
-                title = 'Koninklijke Marechaussee',
-                escription = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
-                icon = 'fas fa-shirt',
-                onSelect = function() openMenu('royalmarshal') end
-            }, {
                 title = 'ANWB',
-                escription = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
+                description = 'Klik hier om alle beschikbare kleding te zien voor deze baan.',
                 icon = 'fas fa-shirt',
                 onSelect = function() openMenu('mechanic') end
-            },
+            }, {
+                title = 'Special Forces',
+                description = 'Klik hier om alle beschikbare kleding te zien voor deze baan,',
+                icon = 'fas fa-shirt',
+                onSelect = function() openMenu('specialforces') end
+            }
         }
     })
 

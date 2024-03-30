@@ -31,4 +31,11 @@ Een EUP menu voor Mikeys EUP versie 1.3 die gebruik maakt van Ox_lib voor een sn
 
 
 ## Vragen
-Voor vragen en buggs kun je terecht in onze __[discord](https://discord.gg/pdFSzG6YdJ)__. Ons team zal je dan verder helpen en het probleem gaan oplossen
+Voor vragen en buggs kun je terecht in onze __[discord](https://discord.gg/pdFSzG6YdJ)__. Ons team zal je dan verder helpen en het probleem gaan oplossen. 
+
+## Disclaimer
+*Indien je een ticket maakt in de discord voor buggs verwachten wij een basis kennis van lua 5.4. Dit wegens dat het voor ons makkelijker gaat om jouw te helpen met een eventuele bugg. Bij voorbaat dank*
+
+## Credits
+- Team MTC
+- Team Mikeys EUP

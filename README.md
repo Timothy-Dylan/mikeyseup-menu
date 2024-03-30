@@ -31,4 +31,4 @@ Een EUP menu voor Mikeys EUP versie 1.3 die gebruik maakt van Ox_lib voor een sn
 
 
 ## Vragen
-Voor vragen en buggs kun je terecht in onze [dDiscord](https://discord.gg/pdFSzG6YdJ). Ons team zal je dan verder helpen en het probleem gaan oplossen
+Voor vragen en buggs kun je terecht in onze __[discord](https://discord.gg/pdFSzG6YdJ)__. Ons team zal je dan verder helpen en het probleem gaan oplossen

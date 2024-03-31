@@ -49,7 +49,7 @@ local function openMenu(job)
         local base = QBCore.Functions.GetPlayerData().charinfo.gender
         if base == 0 then gender = 'male' else gender = 'female' end
     elseif Shared.Framework == 'esx' then
-        gender = Esx.PlayerData.sex
+        gender = ESX.PlayerData.sex
     elseif Shared.Framework == 'standalone' then
         if IsPedMale(cache.ped) then gender = 'male' else gender = 'female' end
         job = { name = job, label = job }
@@ -83,7 +83,7 @@ local function openMenu(job)
 end
 
 RegisterNetEvent("mtc-mikeyseup:client:openMenu", function()
-    if Shared.Framework == 'qb-core' then PlayerData = QBCore.Functions.GetPlayerData().job elseif Shared.Framework == 'esx' then PlayerData = Esx.PlayerData.job end
+    if Shared.Framework == 'qb-core' then PlayerData = QBCore.Functions.GetPlayerData().job elseif Shared.Framework == 'esx' then PlayerData = ESX.PlayerData.job end
     local options = {}
 
     options = {

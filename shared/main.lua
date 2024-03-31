@@ -11,15 +11,10 @@ Shared.Army = 'defensie' -- done
 Shared.SpecialForces = 'dsi' -- done
 
 -- Frameworks
-Shared.Framework = 'qb-core' -- 'qb-core' or 'esx' or 'standalone'
+Shared.Framework = 'esx' -- 'qb-core' or 'esx' or 'standalone'
 
 Shared.Clothing = {}
 
 if Shared.Framework == 'qb-core' then
     QBCore = exports['qb-core']:GetCoreObject()
-end
-
-if Shared.Framework == 'esx' then
-    ESX = nil
-    TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 end

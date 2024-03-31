@@ -50,12 +50,19 @@ local function openMenu(job)
         if base == 0 then gender = 'male' else gender = 'female' end
     elseif Shared.Framework == 'esx' then
         gender = ESX.PlayerData.sex
+        if gender == 'm' then
+            gender = 'male'
+        else
+            gender = 'female'
+        end
     elseif Shared.Framework == 'standalone' then
         if IsPedMale(cache.ped) then gender = 'male' else gender = 'female' end
         job = { name = job, label = job }
     end
 
     local options = {}
+
+    print(gender)
 
     if Shared.Clothing[job.name] == nil then
         lib.notify({ title = 'Mikey\'s EUP 1.3', description = 'Er is voor deze baan momenteel geen kleding beschikbaar of deze is nog niet ingesteld.', iconAnimation = 'beatFade', duration = 7500, type = 'error' })

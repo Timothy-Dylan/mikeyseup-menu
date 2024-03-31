@@ -20,6 +20,10 @@ Een EUP menu voor Mikeys EUP versie 1.3 die gebruik maakt van Ox_lib voor een sn
 - [Mikeys EUP 1.3](https://discord.gg/pdFSzG6YdJ)
 - [Ox_lib](https://github.com/overextended/ox_lib/releases/tag/v3.18.0)
 
+## Gebruik 
+- /mikyes  :  `Opent het EUP Menu. LET OP DIT IS VOOR IEDERE JOB zo`
+- /mikeysa :  `Opent het EUP Menu als admin zijnde`
+
 ## Vragen
 Voor vragen en buggs kun je terecht in onze __[discord](https://discord.gg/pdFSzG6YdJ)__. Ons team zal je dan verder helpen en het probleem gaan oplossen. 
 

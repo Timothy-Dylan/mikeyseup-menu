@@ -5,7 +5,7 @@ Een EUP menu voor Mikeys EUP versie 1.3 die gebruik maakt van Ox_lib voor een sn
 
 ## Support
 - Qb-core
-- ESX
+- ESX (Versie 1.10.5, oudere versies check de config)
 - Standalone (Zonder job check)
 
 ## Gebruikersaanwijzing

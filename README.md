@@ -13,7 +13,7 @@ Een EUP menu voor Mikeys EUP versie 1.3 die gebruik maakt van Ox_lib voor een sn
 2. Rename het script naar `mikeyseup-menu`.
 3. Download de laatste versie van Ox_lib, zonder ox_lib zal het EUP menu niet werken
 4. Sleep de release file naar je server files
-5. Stel de config in naar jouw wensen
+5. Stel de config (shared/main.lua) in naar jouw wensen
 6. Zet het script in je server.cfg `ensure mikeyseup-menu`
 
 ## Dependencies

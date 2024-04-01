@@ -1,26 +1,28 @@
 fx_version 'cerulean'
 game 'gta5'
-
-name "mtc-mikeyseup"
-description "EUP script for Mikeys EUP"
-author "More Than Code"
-version "1.0.0"
-
 lua54 'yes'
 
+author 'Team Mikeys EUP'
+description 'EUP Menu voor Mikeys EUP versie 1.3 / 1.4'
+version '1.0.0'
+
+dependencies 'ox_lib'
+
 shared_scripts {
-	'@ox_lib/init.lua',
-	'@es_extended/imports.lua',
-	'shared/*.lua',
-	'shared/jobs/*.lua'
+    '@ox_lib/init.lua',
+    'config/init.lua',
+    'clothing/*.lua',
+    '@es_extended/imports.lua',
 }
 
 client_scripts {
-	'client/*.lua'
+    'client/client.lua',
 }
 
 server_scripts {
-	'server/*.lua'
+    'server/server.lua',
 }
 
-dependencies 'ox_lib'
+files {
+    'config/config.lua',
+}

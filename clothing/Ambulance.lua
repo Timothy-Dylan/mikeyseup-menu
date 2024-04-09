@@ -1,5 +1,5 @@
 mEUP.Ambulance = {
-    Id = 'ambulance',
+    Id = 'Ambulance',
     Job = 'ambulance',
     Label = 'Ambulance',
 
